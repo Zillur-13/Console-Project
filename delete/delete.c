@@ -1,33 +1,4 @@
 
-// #include <stdio.h>
-// #include "student.h"
-
-// void deleteStudent() {
-
-//     int id, i, j;
-
-//     printf("\nEnter Student ID: ");
-//     scanf("%d", &id);
-
-//     for (i = 0; i < studentCount; i++) {
-
-//         if (students[i].id == id) {
-
-//             for (j = i; j < studentCount - 1; j++) {
-//                 students[j] = students[j + 1];
-//             }
-
-//             studentCount--;
-
-//             printf("\nStudent Deleted Successfully!\n");
-
-//             return;
-//         }
-//     }
-
-//     printf("\nStudent Not Found!\n");
-// }
-
 
 
 #include <stdio.h>
